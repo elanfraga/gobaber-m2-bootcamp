@@ -4,9 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "debug": "nodemon --inspect src/start.js"
   },
   "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/register": "^7.4.4",
+    "babel-polyfill": "^6.26.0",
     "bcryptjs": "^2.4.3",
     "date-fns": "^2.0.0-beta.2",
     "express": "^4.17.1",
