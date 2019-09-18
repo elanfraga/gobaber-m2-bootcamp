@@ -42,7 +42,7 @@ class SessionController {
     const { id, name, provider, avatar } = user;
 
     return res.json({
-      users: {
+      user: {
         id,
         name,
         email,
